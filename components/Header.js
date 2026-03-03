@@ -17,8 +17,8 @@ export default function Header(){
   }
 
   return (
-    <header className="w-full bg-white border-b relative">
-      <div className="mx-auto container-wide flex items-center justify-between py-2 px-4 sm:px-6 lg:px-8">
+    <header className="w-full bg-white border-b relative px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto container-wide flex items-center justify-between py-2">
         <div className="flex flex-col items-start">
           <Link href="/" className="flex items-center">
             <img src="/logo.png" alt="Sweep-It" className="w-28 sm:w-34" />
