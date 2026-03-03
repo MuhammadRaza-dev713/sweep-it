@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <Header />
-        <main className="flex-1 w-full py-8 px-2 sm:px-4">
+        <main className="flex-1 w-full py-8 px-4 sm:px-6 lg:px-8">
           <div className="mx-auto container-wide">
             {children}
 
