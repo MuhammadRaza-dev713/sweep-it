@@ -18,12 +18,12 @@ export default function Header(){
 
   return (
     <header className="w-full bg-white border-b relative">
-      <div className="mx-auto container-wide flex items-center justify-between py-4 px-4">
+      <div className="mx-auto container-wide flex items-center justify-between py-2 px-4">
         <div className="flex flex-col items-start">
           <Link href="/" className="flex items-center">
-            <img src="/logo.png" alt="Sweep-It" className="w-28 sm:w-36" />
+            <img src="/logo.png" alt="Sweep-It" className="w-28 sm:w-34" />
           </Link>
-          <span className="text-[10px] sm:text-xs text-slate-500 font-medium ml-0 mt-0.5">All-In-One Platform for<br />Chimney Sweeps</span>
+          <span className="text-[10px] sm:text-[8px] text-slate-500 font-medium ml-0 mt-0.5">All-In-One Platform for<br />Chimney Sweeps</span>
         </div>
 
         {/* Mobile Menu Button */}
