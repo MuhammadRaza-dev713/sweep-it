@@ -75,7 +75,7 @@ export default function Footer(){
           <a href="#" className="hover:opacity-80 order-2 md:order-1">Terms of Service</a>
           <div className="text-center order-1 md:order-2">
             <div>© 2026 Sweep-It. All rights reserved.</div>
-            <div className="text-[10px] sm:text-xs opacity-80">Designed & Developed by AlnairTech</div>
+            <div className="text-[10px] sm:text-xs opacity-80">Designed & Developed by <a href="https://AlnairTech.com" target="_blank" rel="noopener noreferrer" className="hover:underline">AlnairTech</a></div>
           </div>
           <a href="#" className="hover:opacity-80 order-3">Privacy Policy</a>
         </div>

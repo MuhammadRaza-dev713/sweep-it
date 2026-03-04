@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import FeatureCard from '../components/FeatureCard'
 import ContactForm from '../components/ContactForm'
 
@@ -117,9 +118,9 @@ export default function Home() {
                 <p className="mt-2 sm:mt-3 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">Now Available With Either £, € or $ Options.</p>
                 <p className="mt-1 sm:mt-2 text-lg sm:text-xl md:text-2xl lg:text-3xl opacity-90 font-semibold">Options.</p>
                 <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg lg:text-xl opacity-90">Boost your chimney sweeping business efficiently</p>
-                <button className="mt-4 sm:mt-6 px-4 sm:px-6 py-2.5 sm:py-3 bg-white text-primary font-semibold rounded-md hover:bg-slate-100 transition items-center gap-2 inline-flex text-sm sm:text-base">
+                <Link href="/contact" className="mt-4 sm:mt-6 px-4 sm:px-6 py-2.5 sm:py-3 bg-white text-primary font-semibold rounded-md hover:bg-slate-100 transition items-center gap-2 inline-flex text-sm sm:text-base">
                     <img src="/mingcute_group.svg" alt="Contact Us" className="w-4 h-4 sm:w-5 sm:h-5 inline" /> Contact Us
-                </button>
+                </Link>
             </section>
 
             {/* Additional Features Section */}
