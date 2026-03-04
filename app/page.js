@@ -115,7 +115,7 @@ export default function Home() {
             {/* CTA Banner Section */}
             <section className="bg-gradient-to-r from-[#0044cc] via-[#0077b6] to-[#0099cc] rounded-2xl p-6 sm:p-8 md:p-12 text-center text-white">
                 <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-semibold leading-tight">Boost Productivity For Your Business.</h2>
-                <p className="mt-2 sm:mt-3 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">Now Available With Either £, € or $ Options.</p>
+                <p className="mt-2 sm:mt-3 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">Now Available With Either £, € or $</p>
                 <p className="mt-1 sm:mt-2 text-lg sm:text-xl md:text-2xl lg:text-3xl opacity-90 font-semibold">Options.</p>
                 <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg lg:text-xl opacity-90">Boost your chimney sweeping business efficiently</p>
                 <Link href="/contact" className="mt-4 sm:mt-6 px-4 sm:px-6 py-2.5 sm:py-3 bg-white text-primary font-semibold rounded-md hover:bg-slate-100 transition items-center gap-2 inline-flex text-sm sm:text-base">
